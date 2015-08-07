@@ -1,11 +1,11 @@
 <?php
 
-namespace Twitter\TwitterOAuth;
+namespace Abraham\TwitterOAuth;
 
 /**
  * The result of the most recent API request.
  *
- * @author Twitter Williams <abraham@abrah.am>
+ * @author Abraham Williams <abraham@abrah.am>
  */
 class Response
 {

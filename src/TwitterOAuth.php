@@ -4,9 +4,9 @@
  *
  * @license MIT
  */
-namespace Twitter\TwitterOAuth;
+namespace Abraham\TwitterOAuth;
 
-use Twitter\TwitterOAuth\Util\JsonDecoder;
+use Abraham\TwitterOAuth\Util\JsonDecoder;
 
 /**
  * TwitterOAuth class for interacting with the Twitter API.

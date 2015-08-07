@@ -1,8 +1,8 @@
 <?php
 
-namespace Twitter\TwitterOAuth\Tests;
+namespace Abraham\TwitterOAuth\Tests;
 
-use Twitter\TwitterOAuth\Consumer;
+use Abraham\TwitterOAuth\Consumer;
 
 class ConsumerTest extends \PHPUnit_Framework_TestCase {
     public function testToString()

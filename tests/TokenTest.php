@@ -1,8 +1,8 @@
 <?php
 
-namespace Twitter\TwitterOAuth\Tests;
+namespace Abraham\TwitterOAuth\Tests;
 
-use Twitter\TwitterOAuth\Token;
+use Abraham\TwitterOAuth\Token;
 
 class TokenTest extends \PHPUnit_Framework_TestCase {
     /**

@@ -3,7 +3,7 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith
  */
-namespace Twitter\TwitterOAuth;
+namespace Abraham\TwitterOAuth;
 
 /**
  * The HMAC-SHA1 signature method uses the HMAC-SHA1 signature algorithm as defined in [RFC2104]
