@@ -2,9 +2,9 @@
 /**
  * WARNING: Running these tests will post and delete through the actual Twitter account.
  */
-namespace Abraham\TwitterOAuth\Test;
+namespace Twitter\TwitterOAuth\Test;
 
-use Abraham\TwitterOAuth\TwitterOAuth;
+use Twitter\TwitterOAuth\TwitterOAuth;
 
 class TwitterOAuthTest extends \PHPUnit_Framework_TestCase
 {
@@ -88,7 +88,7 @@ class TwitterOAuthTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Abraham\TwitterOAuth\TwitterOAuthException
+     * @expectedException \Twitter\TwitterOAuth\TwitterOAuthException
      * @expectedExceptionMessage Could not authenticate you
      */
     public function testOauthRequestTokenException()
@@ -99,7 +99,7 @@ class TwitterOAuthTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Abraham\TwitterOAuth\TwitterOAuthException
+     * @expectedException \Twitter\TwitterOAuth\TwitterOAuthException
      * @expectedExceptionMessage Invalid oauth_verifier parameter
      * @depends testOauthRequestToken
      */

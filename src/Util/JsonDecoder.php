@@ -1,6 +1,6 @@
 <?php
 
-namespace Abraham\TwitterOAuth\Util;
+namespace Twitter\TwitterOAuth\Util;
 
 /**
  * @author louis <louis@systemli.org>
