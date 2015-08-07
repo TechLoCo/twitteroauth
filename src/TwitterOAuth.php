@@ -244,7 +244,7 @@ class TwitterOAuth extends Config
     private function http($method, $host, $path, array $parameters)
     {
         $this->resetLastResponse();
-        $url = sprintf('%s/%s/%s.json', $host, static::API_VERSION, $path);
+        $url = sprintf('%s/%s/%s', $host, static::API_VERSION, $path);
         $this->response->setApiPath($path);
         $result = $this->oAuthRequest($url, $method, $parameters);
         $response = JsonDecoder::decode($result, $this->decodeJsonAsArray);
