@@ -1,8 +1,8 @@
 <?php
 
-namespace Abraham\TwitterOAuth\Tests;
+namespace Techloco\TwitterOAuth\Tests;
 
-use Abraham\TwitterOAuth\HmacSha1;
+use Techloco\TwitterOAuth\HmacSha1;
 
 class HmacSha1Test extends AbstractSignatureMethodTest
 {
